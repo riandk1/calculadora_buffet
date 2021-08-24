@@ -38,4 +38,4 @@ This project was developed with the technologies and tools below:
 
 Made with 💙 by riandk1 :globe_with_meridians: [Conect!](https://www.linkedin.com/in/riadnk1/)<br>
 <br>
-## You can also [Test here!]()
+## You can also [Test here!](https://riandk1.github.io/calculadora_buffet/)
