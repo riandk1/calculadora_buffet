@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+    <link rel="icon" href="./assets/christmas-ball.png">
+    <title>Calculadora Buffet Natalino</title>
+
+    <style>
+               @font-face {
+           font-family: IndieFlower;
+           src: url(./fonts/IndieFlower-Regular.ttf);
+       } 
+    </style>
+</head>
+
+<body>
+    
+    <div class="container">
+
+        <div class="buffetNatalino">
+
+            <h1>Calculadora<br>Buffet Natalino</h1><br>
+
+            <input id="adultos" name="adultos" type="number" placeholder="Qtd de Adultos"><br>
+            <input id="criancas" name="criancas" type="number" placeholder="Qtd de Crianças"><br>
+            <input id="duracao" name="duracao" type="number" placeholder="Duração aproximada (em horas)"><br>
+            
+            <p class="bt green" onclick="captureInf()">Calcular</p>
+            <p class="bt orange" onclick="window.location.reload()">Limpar</p>
+
+            <p id="resultado" class="resultado"></p>
+        </div>
+
+        <div>
+            <p class="msg">✰ Merry Christmas ✰</p>
+         </div>
+
+    </div>
+
+    <script src="scripts/script.js"></script>
+
+
+   <footer>
+    Developed by Rian de Almeida
+   </footer>
+
+</body>
+
+</html>

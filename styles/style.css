@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    background-image: url(../assets/background-christmas-2.jpg);
+    /* background-color: #22243D; */
+}
+
+h1{
+    font-family: IndieFlower;
+    color: whitesmoke;
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    line-height: 25px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.container{
+    text-align: center;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+
+.buffetNatalino{
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    display: inline-block;
+    margin: auto;
+    background-color: rgba(203,28,43,0.95);
+    border-radius: 5%;
+    box-sizing: border-box;
+}
+
+.bt{
+    display: inline-block;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 1.1em;
+    padding: 10px;
+    margin-bottom: 25px;
+    margin-left: 5px;
+}
+
+.green{
+    background-color: #457926;
+}
+
+.green:hover{
+    background-color: #79d146;
+    color: rgb(27, 27, 27);
+}
+
+.orange{
+    background-color: #ec6f1b;
+}
+
+.orange:hover{
+    background-color: orange;
+    color: rgb(27, 27, 27);
+}
+
+input{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 0;
+}
+
+.resultado{
+    color: white;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.msg{
+    font-family: IndieFlower;
+    color: white;
+    background-color: #9E0B06;
+    text-align: center;
+    max-width: 300px;
+    padding: 3px;
+    font-size: 15px;
+    font-weight: 600;
+    margin: auto;
+    border-radius: 0 0 10px 10px;
+}
+
+@media screen and (max-width: 480px){
+
+    .buffetNatalino{
+        padding: 25px;
+        display: inline-block;
+        margin: auto;
+        background-color: #CB1C2B;
+    }
+}
+
+
+/* .container{
+    /* text-align: center;
+    font-family: IndieFlower;
+    max-width: 300px;
+    margin: auto;
+    background-color: #CB1C2B 0.9;
+    padding: 20px;
+    border-radius: 10px;
+} */
+
+/* input{
+    width: 100%;
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}  */
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* height: 5%; */
+    text-align: center;
+    background-color: white;
+}
+
+
+
+/* #548239 */
+/* #ec6f1b */
